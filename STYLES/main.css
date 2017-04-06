@@ -1,0 +1,26 @@
+body{
+	background-color: #303030;
+}
+
+#navContainer{
+	background-color: black;
+}
+
+.menuItem{
+	text-align: center;
+	padding: 20px;
+}
+
+i{
+	margin-right: 10px;
+}
+
+.menuItem a{
+	color: white;
+	text-decoration: none;
+}
+
+.menuItem a:hover{
+	color:cyan;
+	text-decoration: none;
+}
