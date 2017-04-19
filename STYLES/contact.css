@@ -111,7 +111,7 @@ i{
 	text-align: center;
 	margin: 0;
 	border-radius: 0;
-	background: linear-gradient(270deg,black, slategrey, violet);
+	background: linear-gradient(270deg, hotpink, #00a3ff);
 	background-size: 300% 300%;
 	-webkit-animation: AnimationName 10s ease infinite;
 	-moz-animation: AnimationName 10s ease infinite;
@@ -145,7 +145,7 @@ i{
 }
 
 
-.themeButton{
+.themeButtonRight{
 	
 	font-size: 2em;
 	margin: auto;
@@ -158,10 +158,31 @@ i{
 	background-color: rgba(0,0,0,.5);
 }
 
-.themeButton:hover{
+.themeButtonRight:hover{
 	color: hotpink;
 	text-decoration:none;
 	background-color: rgba(0,0,0,1);
+	box-shadow: 0px 0px 15px hotpink;
+}
+
+.themeButtonLeft{
+	
+	font-size: 2em;
+	margin: auto;
+	color: white;
+	padding: 10px;
+	border:solid white 1px;
+	text-decoration: none;
+	font-family: TitleFont;
+	border-radius: 10px;
+	background-color: rgba(0,0,0,.5);
+}
+
+.themeButtonLeft:hover{
+	color: cyan;
+	text-decoration:none;
+	background-color: rgba(0,0,0,1);
+	box-shadow: 0px 0px 15px cyan;
 }
 
 
@@ -175,24 +196,20 @@ i{
 }
 
 .left{
-	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#6a17b2+0,000000+46 */
-background: rgb(106,23,178); /* Old browsers */
-background: -moz-linear-gradient(left,  rgba(106,23,178,1) 0%, rgba(0,0,0,1) 46%); /* FF3.6-15 */
-background: -webkit-linear-gradient(left,  rgba(106,23,178,1) 0%,rgba(0,0,0,1) 46%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to right,  rgba(106,23,178,1) 0%,rgba(0,0,0,1) 46%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6a17b2', endColorstr='#000000',GradientType=1 ); /* IE6-9 */
+	background-color: black;
+	background-image: url(../IMAGES/leftGuy.png);
+	background-size: contain;
+	background-position: left bottom;
+	background-repeat: no-repeat;
 
-	
 }
 
 .right{
-	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+54,00729b+100 */
-background: rgb(0,0,0); /* Old browsers */
-background: -moz-linear-gradient(left,  rgba(0,0,0,1) 54%, rgba(0,114,155,1) 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(left,  rgba(0,0,0,1) 54%,rgba(0,114,155,1) 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to right,  rgba(0,0,0,1) 54%,rgba(0,114,155,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#00729b',GradientType=1 ); /* IE6-9 */
-
+	background-color: black;
+	background-image: url(../IMAGES/rightGirl.png);
+	background-size: contain;
+	background-position: right bottom;
+	background-repeat: no-repeat;
 	
 }
 
