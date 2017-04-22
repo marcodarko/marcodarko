@@ -49,18 +49,23 @@ function changeImage(){
 	switch (chosen){
 		case 1:
 			$("#marco").attr("src", "../IMAGES/grindrPink.jpg");
+			$("#marco").toggleClass("slide-in-elliptic-top-fwd");
 		break;
 		case 2:
 			$("#marco").attr("src", "../IMAGES/grindrBlue.jpg");
+			$("#marco").toggleClass("slide-in-elliptic-top-fwd");
 		break;
 		case 3:
 			$("#marco").attr("src", "../IMAGES/grindrYellow.jpg");
+			$("#marco").toggleClass("slide-in-elliptic-top-fwd");
 		break;
 		case 4:
 			$("#marco").attr("src", "../IMAGES/grindrRed.jpg");
+			$("#marco").toggleClass("slide-in-elliptic-top-fwd");
 		break;
 		case 5:
 			$("#marco").attr("src", "../IMAGES/marcopic.jpg");
+			$("#marco").toggleClass("slide-in-elliptic-top-fwd");
 		break;
 		
 	}

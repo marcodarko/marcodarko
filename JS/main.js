@@ -1,21 +1,35 @@
 
-// SCROLL ANIMATIONS
 
-$(window).scroll(function() {
+    
 
-    if ($(this).scrollTop() > 250) {
+    	$('#catSVG').hover(function(){
 
-    	$('#mySVG').animate({opacity: 1}, 1000);
-        var myVivus = new Vivus('mySVG');
-		myVivus.play(1);
+        var myVivus = new Vivus('catSVG');
+      
+		    myVivus.play();
 
-		$('#catH1').animate({opacity: 1}, 2000);
-    }else{
-    	$('#mySVG').css({opacity: 0});
-    }
+      });
 
 
-});
+
+      $('#personSVG').hover(function(){
+
+        var myVivus = new Vivus('personSVG');
+      
+        myVivus.play();
+
+      });
+
+
+
+      $('#iconSVG').hover(function(){
+
+        var myVivus = new Vivus('iconSVG');
+      
+        myVivus.play();
+
+      });
+	
 
 
 
@@ -80,5 +94,36 @@ $(document).ready(function(){
   
 });
 
+
+
+$("#CATmodal").iziModal();
+
+$(document).on('click', '#catSVG', function (event) {
+
+    event.preventDefault();
+
+    $('#CATmodal').iziModal('open');
+
+});
+
+$("#PERSONmodal").iziModal();
+
+$(document).on('click', '#personSVG', function (event) {
+
+    event.preventDefault();
+
+    $('#PERSONmodal').iziModal('open');
+
+});
+
+$("#ICONmodal").iziModal();
+
+$(document).on('click', '#iconSVG', function (event) {
+
+    event.preventDefault();
+
+    $('#ICONmodal').iziModal('open');
+
+});
 
 
