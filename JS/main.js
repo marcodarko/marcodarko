@@ -1,6 +1,5 @@
+      
 
-
-    
 
     	$('#catSVG').hover(function(){
 

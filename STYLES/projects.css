@@ -155,14 +155,34 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', end
 
 }
 
+@media screen and (max-width: 768px) {
+
+	body .project{
+		height: 200px;
+		width: 100%;
+		background-color: #4e4e4e;
+		text-align: center;
+		position: relative;
+		display: flex;
+		cursor: pointer;
+		background-position: center;
+	}
+
+
+}
+
 .project{
 	height: 400px;
 	width: 100%;
-	background-color: grey;
+	background-color: #4e4e4e;
 	text-align: center;
 	position: relative;
 	display: flex;
 	cursor: pointer;
+}
+
+.project:hover{
+	background-blend-mode: multiply;
 }
 
 
@@ -174,31 +194,98 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', end
 	color: white;
 }
 
+.project h2{
+
+	-webkit-animation:colorchange 10s infinite alternate;
+
+}
+
+
+
+   @-webkit-keyframes colorchange {
+      0% {
+        
+        color: cyan;
+      }
+      
+      10% {
+        
+        color:hotpink;
+      }
+      
+      20% {
+        
+        color: violet;
+      }
+      
+      30% {
+        
+        color: orange;
+      }
+      
+      40% {
+        
+        color: lightblue;
+      }
+      
+      50% {
+        
+        color: pink;
+      }
+      
+      60% {
+        
+        color: lightblue;
+      }
+      
+      70% {
+        
+        color: hotpink;
+      }
+      80% {
+     
+        color: white;
+      }
+      
+      90% {
+     
+        color: purple;
+      }
+      
+      100% {
+        
+        color: pink;
+      }
+    }
+
 .themeButton{
 
 	color: white;
 	padding: 7px;
-	border:solid black 2px;
 	text-decoration: none;
-	border-radius: 3px;
-	background-color: rgba(0,0,0,.8);
+	border-radius: 5px;
+	background-color: rgba(122,10,153,.8);
 	margin: 5px;
 }
 
 .themeButton:hover{
 	color: white;
 	text-decoration:none;
-	background-color: rgba(0,0,0,1);
+	background-color: rgba(122,10,153,1);
 }
 
 #gaymoji{
-	background-color: black;
-	background-image: url(../IMAGES/grindrSmall.gif);
+	background-image: url(../IMAGES/backGrindr.jpg);
 	background-size: cover;
 }
 
 #ARMSurfing{
-	background-image: url(../IMAGES/ARMS.gif);
+	background-image: url(../IMAGES/backARMS.jpg);
+	background-size: cover;
+}
+
+#burger{
+	background-image: url(../IMAGES/backBurger.jpg);
 	background-size: cover;
 }
 

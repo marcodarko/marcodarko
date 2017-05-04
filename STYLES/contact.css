@@ -138,6 +138,7 @@ i{
 }
 
 
+
 #footer{
 	margin: 0;
 	border-radius: 0;
@@ -185,33 +186,45 @@ i{
 	box-shadow: 0px 0px 15px cyan;
 }
 
+@media screen and (max-width: 768px) {
+
+	body #contactBox{
+
+	text-align: center;
+	padding: 40px;
+	background-color:#323232;
+	display: flex;
+	height: 200px;
+}
+}
 
 #contactBox{
 
 	text-align: center;
 	padding: 40px;
-	background-color: black;
+	background-color:black;
 	display: flex;
 	height: 600px;
 }
 
 
 .left{
-	background-color: black;
+	background-color: lightblue;
 	background-image: url(../IMAGES/leftGuy.png);
-	background-size: contain;
+	background-size:contain;
 	background-position: left bottom;
 	background-repeat: no-repeat;
 
 }
 
 .right{
-	background-color: black;
+	background-color: pink;
 	background-image: url(../IMAGES/rightGirl.png);
 	background-size: contain;
 	background-position: right bottom;
 	background-repeat: no-repeat;
 	
 }
+
 
 
