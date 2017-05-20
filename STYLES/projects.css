@@ -181,6 +181,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', end
 	cursor: pointer;
 }
 
+.modalBox{
+	position: relative;
+}
+
+
 .project:hover{
 	background-blend-mode: multiply;
 }
@@ -286,6 +291,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', end
 
 #burger{
 	background-image: url(../IMAGES/backBurger.jpg);
+	background-size: cover;
+}
+
+#gitme{
+	background-image: url(../IMAGES/gitme.jpg);
 	background-size: cover;
 }
 
