@@ -1,5 +1,22 @@
 
+$( ".tile" ).hover(function(){
 
+	// $(this).toggleClass('flip-horizontal-bottom');
+	var outText = $(this).data("out");
+	var inText = $(this).data("in");
+	var color1 = $(this).data('chover');
+	var color2 = $(this).data('c');
+
+	var currentText = $(this).html().trim();
+
+	if(currentText === inText ){
+		$(this).html(outText);
+		$(this).css({'background-color':color2});
+	}else{
+		$(this).html(inText);
+		$(this).css({'background-color':color1});
+	}
+} );
 
 $( ".spanIcon" ).hover(function(){
 
@@ -16,7 +33,6 @@ $( ".spanIcon" ).hover(function(){
 	}else{
 		$(this).html(inText);
 	}
-
 } );
 
 

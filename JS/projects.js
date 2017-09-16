@@ -16,7 +16,6 @@ $('#gaymoji').mouseenter(function(){
 
 $('#gaymoji').mouseleave(function(){
 	$('#gaymoji').html(" ");
-
 });
 
 
@@ -117,7 +116,7 @@ $('#Uniconn').mouseenter(function(){
 	var button2= $('<buttom>').addClass('themeButton roll-in-left ').html("Express");
 	var button3= $('<buttom>').addClass('themeButton roll-in-left ').html("Mongo");
 	var button4= $('<buttom>').addClass('themeButton roll-in-left ').html("Passport");
-	var button5= $('<buttom>').addClass('themeButton roll-in-left ').html("Axios");
+	var button5= $('<buttom>').addClass('themeButton roll-in-left ').html("Socket.io");
 	var button6= $('<buttom>').addClass('themeButton roll-in-left ').html("Node");
 
 	var div= $('<div>').append(h2).append(button1).append(button2).append(button3).append(button4).append(button5).append(button6);
@@ -128,7 +127,58 @@ $('#Uniconn').mouseleave(function(){
 	$('#Uniconn').html(" ");
 });
 
+// transunited
 
+$("#americanlifemodal").iziModal();
+
+$(document).on('click', '.americanlifetrigger', function (event) {
+    event.preventDefault();
+    $('#americanlifemodal').iziModal('open');
+});
+
+$('#americanlife').mouseenter(function(){
+
+	var h2= $('<h2 style="color: white">').html('AmericanLife');
+	var button1= $('<buttom>').addClass('themeButton roll-in-left ').html("React");
+	var button2= $('<buttom>').addClass('themeButton roll-in-left ').html("Express");
+	var button3= $('<buttom>').addClass('themeButton roll-in-left ').html("Mongo");
+	var button4= $('<buttom>').addClass('themeButton roll-in-left ').html("Passport");
+	var button5= $('<buttom>').addClass('themeButton roll-in-left ').html("Axios");
+	var button6= $('<buttom>').addClass('themeButton roll-in-left ').html("Node");
+
+	var div= $('<div>').append(h2).append(button1).append(button2).append(button3).append(button4).append(button5).append(button6);
+	$('#americanlife').append(div);
+});
+
+$('#americanlife').mouseleave(function(){
+	$('#americanlife').html(" ");
+});
+
+// wedding
+
+$("#weddingmodal").iziModal();
+
+$(document).on('click', '.weddingtrigger', function (event) {
+    event.preventDefault();
+    $('#weddingmodal').iziModal('open');
+});
+
+$('#wedding').mouseenter(function(){
+
+	var h2= $('<h2 style="color: white">').html('Conor & Marco');
+	var button1= $('<buttom>').addClass('themeButton roll-in-left ').html("React");
+	var button2= $('<buttom>').addClass('themeButton roll-in-left ').html("Node");
+	var button3= $('<buttom>').addClass('themeButton roll-in-left ').html("CSS3");
+	var button4= $('<buttom>').addClass('themeButton roll-in-left ').html("HTML5");
+	var button5= $('<buttom>').addClass('themeButton roll-in-left ').html("JavaScript");
+
+	var div= $('<div>').append(h2).append(button1).append(button2).append(button3).append(button4).append(button5);
+	$('#wedding').append(div);
+});
+
+$('#wedding').mouseleave(function(){
+	$('#wedding').html(" ");
+});
 
 
 

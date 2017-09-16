@@ -137,7 +137,25 @@ i{
 	padding: 50px 0px;
 }
 
+.link{
+	text-decoration: none;
+	color: grey;
+}
 
+.link:hover{
+	text-decoration: none;
+	color: white;
+}
+
+.link:focus{
+	text-decoration: none;
+	color: white;
+}
+
+.link:visited{
+	text-decoration: none;
+	color: darkgrey;
+}
 
 #footer{
 	margin: 0;
@@ -145,86 +163,78 @@ i{
 	text-align: center;
 }
 
-
-.themeButtonRight{
-	
-	font-size: 2em;
-	margin: auto;
-	color: white;
-	padding: 10px;
-	border:solid white 1px;
-	text-decoration: none;
-	font-family: TitleFont;
-	border-radius: 10px;
-	background-color: rgba(0,0,0,.5);
-}
-
-.themeButtonRight:hover{
-	color: hotpink;
-	text-decoration:none;
-	background-color: rgba(0,0,0,1);
-	box-shadow: 0px 0px 15px hotpink;
-}
-
-.themeButtonLeft{
-	
-	font-size: 2em;
-	margin: auto;
-	color: white;
-	padding: 10px;
-	border:solid white 1px;
-	text-decoration: none;
-	font-family: TitleFont;
-	border-radius: 10px;
-	background-color: rgba(0,0,0,.5);
-}
-
-.themeButtonLeft:hover{
-	color: cyan;
-	text-decoration:none;
-	background-color: rgba(0,0,0,1);
-	box-shadow: 0px 0px 15px cyan;
-}
-
-@media screen and (max-width: 768px) {
-
-	body #contactBox{
-
-	text-align: center;
-	padding: 40px;
-	background-color:#323232;
-	display: flex;
-	height: 200px;
-}
-}
-
 #contactBox{
-
+	font-size: 1.5em;
 	text-align: center;
-	padding: 40px;
-	background-color:black;
-	display: flex;
-	height: 600px;
+	padding-top: 200px;
+	padding-bottom: 200px;
+	font-family: paragraphFont;
+	color: grey;
+	background-color: #323232;
 }
 
 
-.left{
-	background-color: lightblue;
-	background-image: url(../IMAGES/leftGuy.png);
-	background-size:contain;
-	background-position: left bottom;
-	background-repeat: no-repeat;
-
-}
-
-.right{
-	background-color: pink;
-	background-image: url(../IMAGES/rightGirl.png);
-	background-size: contain;
-	background-position: right bottom;
-	background-repeat: no-repeat;
+.titleText{
 	
+	-webkit-animation:colorchange 10s infinite alternate;
 }
+
+   @-webkit-keyframes colorchange {
+      0% {
+        
+        color: white;
+      }
+      
+      10% {
+        
+        color:hotpink;
+      }
+      
+      20% {
+        
+        color: lightyellow;
+      }
+      
+      30% {
+        
+        color: pink;
+      }
+      
+      40% {
+        
+        color: lightblue;
+      }
+      
+      50% {
+        
+        color: pink;
+      }
+      
+      60% {
+        
+        color: lightblue;
+      }
+      
+      70% {
+        
+        color: hotpink;
+      }
+      80% {
+     
+        color: white;
+      }
+      
+      90% {
+     
+        color: lightgreen;
+      }
+      
+      100% {
+        
+        color: pink;
+      }
+    }
+
 
 
 
