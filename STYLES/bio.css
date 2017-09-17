@@ -73,7 +73,7 @@
 
 @font-face {
     font-family: paragraphFont;
-    src: url(../ASSETS/GOTHIC.ttf);
+    src: url('../ASSETS/GOTHIC.ttf');
 }
 
 @font-face {
@@ -94,6 +94,9 @@
 }
 /*BODY*/
 
+p{
+	font-family: paragraphFont;
+}
 
 body,html{
 	

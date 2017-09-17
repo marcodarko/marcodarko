@@ -156,14 +156,14 @@ $('#americanlife').mouseleave(function(){
 
 // wedding
 
-$("#weddingmodal").iziModal();
+$("#mywedmodal").iziModal();
 
 $(document).on('click', '.weddingtrigger', function (event) {
     event.preventDefault();
-    $('#weddingmodal').iziModal('open');
+    $('#mywedmodal').iziModal('open');
 });
 
-$('#wedding').mouseenter(function(){
+$('#myWed').mouseenter(function(){
 
 	var h2= $('<h2 style="color: white">').html('Conor & Marco');
 	var button1= $('<buttom>').addClass('themeButton roll-in-left ').html("React");
@@ -173,11 +173,11 @@ $('#wedding').mouseenter(function(){
 	var button5= $('<buttom>').addClass('themeButton roll-in-left ').html("JavaScript");
 
 	var div= $('<div>').append(h2).append(button1).append(button2).append(button3).append(button4).append(button5);
-	$('#wedding').append(div);
+	$('#myWed').append(div);
 });
 
-$('#wedding').mouseleave(function(){
-	$('#wedding').html(" ");
+$('#myWed').mouseleave(function(){
+	$('#myWed').html(" ");
 });
 
 
