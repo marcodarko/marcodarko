@@ -65,10 +65,10 @@
     src: url(../ASSETS/Vonique.ttf);
 }
 
-@font-face {
+/*@font-face {
     font-family: paragraphFont;
     src: url(../ASSETS/GOTHIC.ttf);
-}
+}*/
 
 @font-face {
     font-family: iconFont;
@@ -168,7 +168,7 @@ i{
 	text-align: center;
 	padding-top: 200px;
 	padding-bottom: 200px;
-	font-family: paragraphFont;
+	font-family: 'Raleway', sans-serif;
 	color: grey;
 	background-color: #323232;
 }

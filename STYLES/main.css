@@ -72,10 +72,10 @@
     src: url(../ASSETS/Vonique.ttf);
 }
 
-@font-face {
+/*@font-face {
     font-family: ParagraphFont;
     src: url(../ASSETS/GOTHIC.TTF);
-}
+}*/
 
 @font-face {
     font-family: iconFont;
@@ -144,7 +144,7 @@ i{
 
 #hero h5{
 	font-size: 2vw;
-	font-family: ParagraphFont;
+	font-family: 'Raleway', sans-serif;
 	color: darkgrey;
 	cursor: default;
 	/*animation-name: example;
@@ -157,7 +157,7 @@ i{
 }
 
 #hero h4{
-	font-family: ParagraphFont;
+	font-family: 'Raleway', sans-serif;
 	font-size: 5vw;
 	cursor: default;
 }
@@ -338,7 +338,7 @@ svg:hover{
 	padding: 20px;
 	background-color: hotpink;
 	color: white;
-	font-family: ParagraphFont;
+	font-family: 'Raleway', sans-serif;
 	text-align: center;
 }
 
@@ -357,14 +357,14 @@ svg:hover{
 	color: white;
 	font-size: 1.5em;
 	text-align: center;
-	font-family: ParagraphFont;
+	font-family: 'Raleway', sans-serif;
 }
 
 #ICONmodal{
 	padding: 20px;
 	background-color: #692aad;
 	color: white;
-	font-family: ParagraphFont;
+	font-family: 'Raleway', sans-serif;
 }
 
 .modalBox a{
