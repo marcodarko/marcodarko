@@ -43,18 +43,18 @@ jQuery(document).ready(function(){
 });
 
 
-setInterval(function(){
+// setInterval(function(){
 
-	var random=Math.random();
+// 	var random=Math.random();
 
-  if(random <= .1){
-	$('#hero').css({'background-image':'url(IMAGES/static.gif)', 'background-size': 'cover'});
-  $(".text-js").toggleClass('text-flicker-in-glow');
-  }else{
-      $('#hero').css({'background-image': 'none', 'background-color':'black'})
-  }
+//   if(random <= .1){
+// 	$('#hero').css({'background-image':'url(IMAGES/static.gif)', 'background-size': 'cover'});
+//   $(".text-js").toggleClass('text-flicker-in-glow');
+//   }else{
+//       $('#hero').css({'background-image': 'none', 'background-color':'black'})
+//   }
 
-}, 400);
+// }, 400);
 
 
 function autoType(elementClass, typingSpeed){

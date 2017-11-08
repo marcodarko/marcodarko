@@ -198,9 +198,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', end
 	color: white;
 }
 
-.project h2{
 
-	-webkit-animation:colorchange 10s infinite alternate;
+.project h2{
+	font-family: TitleFont;
+	color: white;
+	/*-webkit-animation:colorchange 10s infinite alternate;*/
 
 }
 
@@ -308,8 +310,23 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', end
 	background-size: cover;
 }
 
+#crystal{
+	background-image: url(../IMAGES/backCrystal.jpg);
+	background-size: cover;
+}
+
+#nyt{
+	background-image: url(../IMAGES/backNYT.jpg);
+	background-size: cover;
+}
+
 #myWed{
 	background-image: url(../IMAGES/backWedding.jpg);
+	background-size: cover;
+}
+
+#animal{
+	background-image: url(../IMAGES/backGif.jpg);
 	background-size: cover;
 }
 
@@ -362,8 +379,38 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', end
 	background-color: rgba(0, 0, 0, 1);
 }
 
+.project button{
+	background-color: transparent;
+	border: 1px grey solid;
+	border-radius: 
+	color: white;
+}
 
+.project button:hover{
+	background-color: transparent;
+	border: 1px white solid;
+	border-radius: 
+	color: white;
+}
 
+.project button:active{
+	background-color: transparent;
+	border: 1px grey solid;
+	border-radius: 
+	color: white;
+}
+
+#jumbo{
+	background-color: #703b9b;
+	color: #f2f2f2;
+	font-family: sans-serif;
+}
+
+#jumbo a{
+	text-decoration: none;
+	color: #c6f564;
+	font-weight: bolder;
+}
 
 
 
