@@ -240,6 +240,25 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8251c6', end
       }
     }
 
+    @media screen and (max-width: 768px) {
+		#hero h1{
+			font-size: 1.5em;
+		}
+
+		#contactBox{
+			padding: 20px;
+			font-size: 1.3em;
+			background-image: none;
+			background-color: #323232;
+		}
+
+		#contactBox hr{
+			border: 1px solid black;
+		}
+
+
+	}
+
 
 
 

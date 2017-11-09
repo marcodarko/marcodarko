@@ -259,3 +259,28 @@ $('#animal').mouseleave(function(){
 	$('#animal').html(" ");
 });
 
+// poison
+
+$("#poisonmodal").iziModal();
+
+$(document).on('click', '.poisontrigger', function (event) {
+    event.preventDefault();
+    $('#poisonmodal').iziModal('open');
+});
+
+$('#poison').mouseenter(function(){
+
+	var h2= $('<h2 style="color: white">').html('PoisonousMe');
+	var button1= $('<button>').addClass('themeButton roll-in-left ').html("HTML5");
+	var button2= $('<button>').addClass('themeButton roll-in-left ').html("JQuery");
+	var button3= $('<button>').addClass('themeButton roll-in-left ').html("CSS3");
+	var button4= $('<button>').addClass('themeButton roll-in-left ').html("Illustrator");
+
+	var div= $('<div>').append(h2).append(button1).append(button2).append(button3).append(button4);
+	$('#poison').append(div);
+});
+
+$('#poison').mouseleave(function(){
+	$('#poison').html(" ");
+});
+

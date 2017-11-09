@@ -465,5 +465,33 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cb60b3', end
 	margin-bottom: 20px;
 }
 
+@media screen and (max-width: 768px) {
+	#hero h1{
+		font-size: 1.5em;
+	}
+
+	.paraFont{
+		font-size: .8em;
+	}
+
+	.myPic{
+		width: 40%;
+		background: linear-gradient(270deg,#afff05,#ffad00,#33000e);
+	background-size: 300% 300%;
+	-webkit-animation: AnimationName 10s ease infinite;
+	-moz-animation: AnimationName 10s ease infinite;
+	animation: AnimationName 10s ease infinite;
+	}
+
+	.aboutBox{
+		display: none;
+	}
+
+	.aboutMeBox{
+		background-image: none;
+		background-color: #323232;
+	}
+
+}
 
 
